@@ -1,0 +1,37 @@
+@string{
+  authorname = "Another Author's Name",
+  firstauthorname = "First Author's Name"
+}
+
+@article{article2017,
+  author = {Author One and Author Two},
+  title = {Title of an article},
+  pages = {15--30},
+  journal = "Journal Name",
+  volume = {10},
+  number = {1},
+  year = {2017}
+}
+
+@InProceedings{proc2017,
+  author = {Author Three and Author Four},
+  title = {Title of proceedings},
+  booktitle = {Proc. Name},
+  pages = {20--30},
+  year = {2017}
+}
+
+@BOOK{book2017,
+  title = "Book name",
+  publisher = {Publisher name},
+  year = {2017},
+  author = "First author and " # authorname
+}
+
+@book{anotherbook2017,
+  title = "Second Book name",
+  publisher = {Different publisher name},
+  year = {2017},
+  author = firstauthorname # " and Second Author"
+}
+
