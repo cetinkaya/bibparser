@@ -23,5 +23,5 @@ entries.each do |entry|
   end
 end
 
-puts "Total page count: #{count}" # Should be 27
+puts "Total page count: #{count}"
 ```
