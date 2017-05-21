@@ -3,7 +3,7 @@ bibparser is a simple [BibTeX](http://www.bibtex.org) file parsing library imple
 
 Currently, bibparser can only parse publicaton type (@article, @book, etc.) and "@string" entries. It gives error when it sees @preamble or @comment entries. 
 
-Given a .bib file or a BibTeX string, bibparser's parse method returns in an array of all parsed entries. Each element of the array is itself an array of 3 elements: `EntryType`, `CitationKeyIfTheEntryIsAPubliction`, and `Tags`. 
+Given a .bib file or a BibTeX string, bibparser's parse method returns an array of all parsed entries. Each element of the array is itself an array of 3 elements: `EntryType`, `CitationKeyIfTheEntryIsAPubliction`, and `Tags`. 
 
 ## Example Use
 
